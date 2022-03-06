@@ -182,7 +182,7 @@ CONFIG_INT:
     BSF	    GIE		    ; Habilitamos interrupciones
     BSF	    T0IE	    ; Habilitamos interrupcion TMR0
     BCF	    T0IF	    ; Limpiamos bandera de TMR0
-    BCF	    TMR1IF	    ; Limpiamos bandera de TMR2
+    BCF	    TMR1IF	    ; Limpiamos bandera de TMR1
     RETURN
         
 OBTENER_NIBBLE:			;    Ejemplo  Obtenemos nibble bajo
